@@ -10,7 +10,7 @@ app.set('view engine', 'html');
 app.use(express.urlencoded({extended:false}))
 
 app.get('/',(req,res)=>{
-    res.render('index.html')
+    res.render('Index.html')
 })
 
 app.post('/',(req,res)=>{
