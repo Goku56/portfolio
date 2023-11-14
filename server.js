@@ -1,7 +1,7 @@
 const sgMail = require('@sendgrid/mail')
 const path = require('path')
 require('dotenv').config()
-sgMail.setApiKey(process.env.API_KEY)
+sgMail.setApiKey('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')
 const express = require('express')
 const app = express()
 const sendMail = require('./utils/sendEmail')
